@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="12dp"
+    android:elevation="10dp"
+    app:cardCornerRadius="6dp"
+    android:layout_marginTop="6dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="6dp">
+    <TextView
+        android:id="@+id/country_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="India"
+        android:textSize="24sp"
+        android:textAlignment="textStart"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/total_confirmed_Cases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Confirmed Cases:  "
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"/>
+    <TextView
+        android:id="@+id/total_confirmed_death"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Death:  "
+        android:textSize="20sp"
+        android:layout_marginStart="10dp"/>
+    <TextView
+        android:id="@+id/total_confirmed_recovered"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Recovered Cases:  "
+        android:textSize="20sp"
+        android:layout_marginStart="10dp"/>
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>
